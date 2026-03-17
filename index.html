@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Automotive Photographer Portfolio - Specializing in high-end automotive and lifestyle photography.">
+    <title>Automotive Photographer | Portfolio</title>
+    
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="Automotive Photographer | Portfolio">
+    <meta property="og:description" content="Specializing in high-end automotive and lifestyle photography.">
+    <meta property="og:type" content="website">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Automotive Photographer Portfolio",
+      "description": "Professional automotive photography services.",
+      "url": "https://www.example.com",
+      "telephone": "+1-555-0199",
+      "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?w=1600&q=80"
+    }
+    </script>
+</head>
+<body>
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">MKR<span>AUTO</span></a>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content fade-in">
+                <h1>Capturing the <span>Essence</span> of Speed</h1>
+                <p>Premium automotive photography.</p>
+                <a href="#portfolio" class="btn">View Portfolio</a>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio container section-pad">
+            <div class="section-title fade-in">
+                <h2>Featured Work</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Gallery Items -->
+                <div class="gallery-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?w=800&q=80" alt="Blue Lamborghini Front View" loading="lazy" class="gallery-img">
+                    <div class="overlay">
+                        <span>Aventador</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1519245659620-e859806a8d3b?w=800&q=80" alt="Yellow Lamborghini Huracan Track" loading="lazy" class="gallery-img">
+                    <div class="overlay">
+                        <span>Huracan Evo</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1621135802920-133df287f89c?w=800&q=80" alt="Gold Lamborghini Sterrato Studio" loading="lazy" class="gallery-img">
+                    <div class="overlay">
+                        <span>Sterrato</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <!-- A high quality yellow urus placeholder (close to provided image) -->
+                    <img src="https://img.jamesedition.com/listing_images/2025/01/31/10/34/49/10e410ec-9f42-4331-ab7f-10aab7345578/je/760x470xc.jpg" alt="Yellow Lamborghini Urus" loading="lazy" class="gallery-img">
+                    <div class="overlay">
+                        <span>Urus Performante</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <!-- Close-up headlights/front view generic replacement -->
+                    <img src="https://cdn.rmsothebys.com/6/8/0/9/9/9/6809994e22086e75eaff45239a94201e65cb4e14.webp" alt="Lamborghini Front Headlights Detail" loading="lazy" class="gallery-img">
+                    <div class="overlay">
+                        <span>Design Details</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="https://cdn-s3.autocarindia.com/Lamborghini/revuelto/OP700728.JPG?w=640&q=75" alt="Lamborghini Dashboard" loading="lazy" class="gallery-img">
+                    <div class="overlay">
+                        <span>Cockpit</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about bg-light section-pad">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text fade-in">
+                        <h2>The Photographer</h2>
+                        <div class="divider"></div>
+                        <p>With an eye for striking angles and a passion for automotive design, I specialize in capturing the aggressive elegance of luxury and performance vehicles. From the sleek lines of a classic grand tourer to the razor-sharp aero of modern track weapons, I bring out the unique soul of every car I photograph.</p>
+                        <p>Based in the fast lane, available worldwide. Let's create beautiful art piece for your passion project together.</p>
+                    </div>
+                    <div class="about-image fade-in">
+                        <img src="https://www.lambocars.com/wp-content/uploads/2024/08/ritle-image.jpg" alt="Photographer Silhouette" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-pad">
+            <div class="container fade-in">
+                <h2>Let's Work Together</h2>
+                <div class="divider center"></div>
+                <form class="contact-form" id="contactForm" onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent successfully.'); this.reset();">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-full">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">MKR<span>AUTO</span></div>
+            <p>&copy; 2026 MkrAuto Photography. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Twitter">TW</a>
+                <a href="#" aria-label="Behance">BE</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog">
+        <span class="close-lightbox" aria-label="Close Lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Lightbox View">
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/script.js" defer></script>
+</body>
+</html>
